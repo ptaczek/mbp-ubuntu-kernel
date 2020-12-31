@@ -1,3 +1,8 @@
+## CONFIG_MODULE_SIG disabled
+to allow unsigned kernel modules.
+
+The reason for this is that I haven't found proper way to configure signing certificates in Ubuntu 20.04 on 2016 15-inch MacBookPro so I decided to compile modified kernel with CONFIG_MODULE_SIG disabled to let the kernel load unsigned modules.
+
 # mbp-ubuntu-kernel
 
 Ubuntu/Mint/Debian kernel 5.6+ with Apple T2 patches built-in. This repo try to keep up with kernel new releases.
